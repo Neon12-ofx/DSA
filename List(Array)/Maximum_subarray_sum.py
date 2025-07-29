@@ -9,4 +9,5 @@ def maxi_sub_sum(arr):
             maxi=max(maxi,total)
     return maxi
 
-print(maxi_sub_sum([1,2,3,4,5]))
+n=list(map(int,input().split()))
+print(maxi_sub_sum(n))
