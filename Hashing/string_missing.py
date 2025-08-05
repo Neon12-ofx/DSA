@@ -1,0 +1,10 @@
+def missing(s):
+    digits=set("123456789")
+    letters=set("abcdefghijklmnopqrstuvwxyz")
+    res=set(s)
+    missing_digits=digits.difference(res)
+    missing_letters=letters.difference(res)
+    miss=missing_digits.union(missing_letters)
+    return ''.join(list(miss))
+s=input()
+print(missing(s))
