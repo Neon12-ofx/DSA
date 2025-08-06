@@ -6,8 +6,6 @@ def insert_pos(s,target):
 
     while l<=h:
         mid=(l+h)//2
-        if s[mid]==target:
-            return mid
         if s[mid]>=target:
             lb=mid
             h=mid-1
