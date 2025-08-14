@@ -47,6 +47,12 @@ It includes implementations of fundamental concepts, problem-solving approaches,
 Passionate about coding, problem-solving, and improving my DSA skills every day. 🚀
 
 ---
+## 📊 Progress Overview
+This pie chart shows the distribution of my commits across different DSA topics in this repository.
+
+![Commit Distribution](commit_pie_chart.png)
+
+---
 
 ## 📈 My GitHub Stats
 ![GitHub stats](https://github-readme-stats.vercel.app/api?username=Neon12-ofx&show_icons=true&theme=radical)
