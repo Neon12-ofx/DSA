@@ -1,3 +1,6 @@
+from numpy.distutils.conv_template import header
+
+
 class Node:
     def __init__(self,val):
         self.val=val
@@ -61,12 +64,22 @@ class SLL:
                     return
                 else:
                     print("NO ELEMENT FOUND")
+    def reverse(self):
+        curr=self.head
+        prev=None
+        while curr is not None:
+            front=curr.next
+            curr.next=prev
+            prev=curr
+            curr=front
+        self.head=prev
+        
+
 sll=SLL()
 sll.append(1)
 sll.append(2)
 sll.append(3)
 sll.insert(12,2)
 sll.insert(15,5)
-sll.delete(15)
-sll.delete(1)
+sll.reverse()
 sll.Tranversal()
